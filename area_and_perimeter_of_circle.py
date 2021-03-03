@@ -12,16 +12,16 @@ def main():
     # this function calculates the area and perimeter of a circle
 
     # input
-    radius = int(input("Enter radius of a circle (mm): "))
+    radius_of_circle = int(input("Enter radius of a circle (mm): "))
 
     # process
-    area = math.pi * radius ** 2
-    perimeter = 2 * math.pi * radius
+    area_of_circle = math.pi * radius_of_circle ** 2
+    perimeter_of_circle = 2 * math.pi * radius_of_circle
 
     # output
     print("")
-    print("Area is {0}mm².".format(area))
-    print("Perimeter is {0}mm.".format(perimeter))
+    print("Area is {0}mm².".format(area_of_circle))
+    print("Perimeter is {0}mm.".format(perimeter_of_circle))
     print("")
     print("Done.")
 
