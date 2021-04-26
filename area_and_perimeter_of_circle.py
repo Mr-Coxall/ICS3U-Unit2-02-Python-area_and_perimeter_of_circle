@@ -20,8 +20,8 @@ def main():
 
     # output
     print("")
-    print("Area is {0}mm².".format(area_of_circle))
-    print("Perimeter is {0}mm.".format(perimeter_of_circle))
+    print("Area is {0} mm².".format(area_of_circle))
+    print("Perimeter is {0} mm.".format(perimeter_of_circle))
     print("")
     print("Done.")
 
